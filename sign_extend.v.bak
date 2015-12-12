@@ -1,0 +1,13 @@
+module signextend(
+        input [15:0] instr, 
+        output reg [31:0] signExtendOut);
+         	
+        always@ (instr)
+        begin if 
+	(instr[31] == 0) 
+    	signExtendOut = {16'b0000000000000000, instr};
+	else 
+    	signExtendOut = {16'b1111111111111111, instr};
+	end
+        
+endmodule

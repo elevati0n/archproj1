@@ -1,0 +1,13 @@
+module combineSLPC4(
+input [31:0] in0,
+input [31:0] in1,
+output reg [31:0] out
+); 
+
+always @ (in0 or in1) 
+begin 
+
+//assign c = {2{carry},2{1’b0}}; 
+out = {in0[29:0], 2'b00};
+end
+endmodule

@@ -1,0 +1,38 @@
+//ALU module
+//This module has 3 inputs : [31:0]data1, [31:0]data2, [3:0]alu_op
+//and 2 outputs: zero, [31:0]alu_result
+//this module supports the add, addi, beq, lw, and sw commands
+//and will perform the arithmetic for each command. 
+
+module alu1(
+  output reg [31:0] alu_result,
+  output reg zero,
+  input [3:0] alu_op,
+  input [31:0] data1, data2
+  );
+  
+
+//for each alu_op code that is inputted into the alu 
+//certain aritmetic will be computed and outputted.
+  always @(alu_op or data1 or data2)
+  case  (alu_op)
+    
+    4'b0000: //alu_op for add, addi, lw, and sw  
+      begin
+        alu_result = data1 + data2; //addition is performed for these operations
+        zero = 0;                   //the zero output should equal zero so as not to branch
+      end
+      
+    4'b0001: //alu_op for beq
+      begin
+        alu_result = data1 - data2; //perform subtration on the inputs
+        if (alu_result == 0)        //if the difference is equal to 0
+          begin
+            zero = 1;               //set the zero output to 1 as to branch
+          end
+      end
+  endcase
+  
+  
+  
+endmodule

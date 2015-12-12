@@ -1,0 +1,904 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ceptde/Desktop/CEProject/modelsim_ase/bin
+vadd4PC
+!s110 1420542496
+!i10b 1
+!s100 8CV<ZPb?XJJSN3;NHj4VK3
+I1L1eYm9fm1VNNL9b8lHD62
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z2 w1419994707
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pc_plus4.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pc_plus4.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1420542496.851551
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/pc_plus4.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pc_plus4.v|
+!i113 1
+Z4 o-work work
+nadd4@p@c
+vALU
+!s110 1419994878
+!i10b 1
+!s100 ^aJnT_N?UK>JeIe;?2e6z2
+IXDj>]zcPcdiPH]_VcS9Ao2
+R1
+R0
+w1419994874
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/alu.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/alu.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1419994878.252710
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/alu.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/alu.v|
+!i113 1
+R4
+n@a@l@u
+valu
+!s110 1420207597
+!i10b 1
+!s100 9zNC1In:^0UH3iW?dh>2^3
+Ic`VVl?R]<cM]7Cmc@Aohn3
+R1
+R0
+w1420207570
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluv1.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluv1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420207597.834193
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluv1.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluv1.v|
+!i113 1
+R4
+valu1
+!s110 1420204490
+!i10b 1
+!s100 ^fQ]d@]STWZ2V?n@AGblZ1
+IbXC]F5FPDXSn0Rfo1<4QY2
+R1
+R0
+w1420192776
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluv0.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluv0.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420204490.877372
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluv0.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluv0.v|
+!i113 1
+R4
+vALU_control
+!s110 1420176046
+!i10b 1
+!s100 m>:6DlzIaR<Z27>M51Nf?3
+IVFm61RXXF9LH@<5gAmAni1
+R1
+R0
+w1420027710
+Z5 8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluCtrl.v
+Z6 F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluCtrl.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420176046.770125
+Z7 !s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluCtrl.v|
+Z8 !s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/aluCtrl.v|
+!i113 1
+R4
+n@a@l@u_control
+valu_control
+Z9 !s110 1420199326
+!i10b 1
+!s100 XeVQe9DLl89KLX^f<1]^k2
+IZ8f[`Ae1<m:][hkU>YaOa2
+R1
+R0
+w1420188460
+R5
+R6
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199326.506834
+R7
+R8
+!i113 1
+R4
+vALU_control_unit
+!s110 1420021189
+!i10b 1
+!s100 V^6O3RFAKTo;W[81a4O3?1
+I4?hWNQWXhK88ghMIG?BZG1
+R1
+R0
+w1420021024
+R5
+R6
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420021189.238279
+R7
+R8
+!i113 1
+R4
+n@a@l@u_control_unit
+vandg
+R9
+!i10b 1
+!s100 I:fR;`GPnUYdmA5GLFck12
+I`Bh_fDPN[DZ2bnaTaS]Q]2
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/andgate.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/andgate.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199326.553764
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/andgate.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/andgate.v|
+!i113 1
+R4
+vcombineSLPC3
+!s110 1419994777
+!i10b 1
+!s100 ^>_51dEQ@dBWOE1kW]S]k3
+IlRzCNONnD=h0RMN1LcF?X3
+R1
+R0
+w1419994774
+Z10 8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/combine_SL_PC_4.v
+Z11 F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/combine_SL_PC_4.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1419994777.807158
+Z12 !s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/combine_SL_PC_4.v|
+Z13 !s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/combine_SL_PC_4.v|
+!i113 1
+R4
+ncombine@s@l@p@c3
+vcombineSLPC4
+R9
+!i10b 1
+!s100 U[><WNVK:9DS]o__G9I=Q0
+IzkXobbQ1Cbo:;^Xc:i<6e0
+R1
+R0
+w1420026092
+R10
+R11
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199326.651005
+R12
+R13
+!i113 1
+R4
+ncombine@s@l@p@c4
+vcontrolunit
+R9
+!i10b 1
+!s100 Y_1YFHTR__K:7Q>iYDgKh3
+I?Bd]m3g7N=:iMch[nG<CF3
+R1
+R0
+w1420184108
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/ctrlUnitv1.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/ctrlUnitv1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199326.703310
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/ctrlUnitv1.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/ctrlUnitv1.v|
+!i113 1
+R4
+vcpu2_tb
+!s110 1420543286
+!i10b 1
+!s100 YVC:^BM>D<[P=jS]8bk0U3
+IK8R6AaR33dUoK`5ZgJmA?2
+R1
+R0
+w1420484925
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/cpu2_tb.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/cpu2_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1420543286.273112
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/cpu2_tb.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/cpu2_tb.v|
+!i113 1
+R4
+vcpu_tb
+R9
+!i10b 1
+!s100 jSkJkjkb:jCPF@8^M41zN2
+IDOlN`Y0Gb@C3<FZ@c3k8b1
+R1
+R0
+w1420030792
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/cpu_tb.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/cpu_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1420199326.748978
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/cpu_tb.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/cpu_tb.v|
+!i113 1
+R4
+vMemory
+R9
+!i10b 1
+!s100 eZb3iJXDf12c2D;;L=FDB1
+IiOhXNJUP_JfZ<6C@gzaBT0
+R1
+R0
+w1420036104
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/memory1.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/memory1.v
+L0 8
+R3
+r1
+!s85 0
+31
+!s108 1420199326.794508
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/memory1.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/memory1.v|
+!i113 1
+R4
+n@memory
+vmux2_1
+R9
+!i10b 1
+!s100 B6_Yg^Og3^DQ[L;bN9XhU2
+I:hb_c]1iZ;KQmfG1]a@@n1
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux2_1.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux2_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199326.845681
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux2_1.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux2_1.v|
+!i113 1
+R4
+vmux32bit2_1
+R9
+!i10b 1
+!s100 lXdPVN3g2QIIR5?cHa?Kz0
+I0EKG3Vegb]lB@o`gek[081
+R1
+R0
+w1419996802
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux32bit2to1.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux32bit2to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199326.892114
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux32bit2to1.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux32bit2to1.v|
+!i113 1
+R4
+vmux4bit2_1
+!s110 1420481200
+!i10b 1
+!s100 CCPR4WdBo@OAeLm?W4k7e2
+I?W8<8cW7MYW[mzRihC@kZ0
+R1
+R0
+w1420481182
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux4bits2to1.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux4bits2to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420481200.108079
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux4bits2to1.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux4bits2to1.v|
+!i113 1
+R4
+vmux4to1
+!s110 1420554200
+!i10b 1
+!s100 j_M1_E2O12M?JN2[aBnOF1
+IMedlB5c@N3E=RYZbbN:kk2
+R1
+R0
+w1420554189
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux4to1.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux4to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420554200.870199
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux4to1.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux4to1.v|
+!i113 1
+R4
+vmux5bit2_1
+!s110 1420484964
+!i10b 1
+!s100 8iDRWXC>K9mblaB77c7N72
+IAGJn6`Y;[bYUUzgB;DFG40
+R1
+R0
+w1420481229
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux5bits2to1.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux5bits2to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420484964.912433
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux5bits2to1.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux5bits2to1.v|
+!i113 1
+R4
+vmyfsm
+R9
+!i10b 1
+!s100 VT720na93klSFeOmlMBjY1
+IWLVO4]BP=CdO=iYoMV0AR2
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/fsm.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/fsm.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199326.980526
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/fsm.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/fsm.v|
+!i113 1
+R4
+vpcCounter
+Z14 !s110 1420199327
+!i10b 1
+!s100 5DAImPM?F?oaJ0`M]6XN83
+IPc=YX2TR5g<]^m]aGDo4[0
+R1
+R0
+w1420195637
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pcCounter.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pcCounter.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199327.024033
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/pcCounter.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pcCounter.v|
+!i113 1
+R4
+npc@counter
+vpcCounter2
+!s110 1420549258
+!i10b 1
+!s100 IjDg;L^gWnzQ5mQh0b2I>3
+Ikjk<<CjGlUiRJOSNUE`Li0
+R1
+R0
+w1420549159
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pcCounter2.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pcCounter2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420549258.541422
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/pcCounter2.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pcCounter2.v|
+!i113 1
+R4
+npc@counter2
+vpipelineEXMEM
+!s110 1420483911
+!i10b 1
+!s100 1;A0kR`PH7cn:P3JhPG2C0
+I[Q7JIiX2UBj]=Y0nCS<ak2
+R1
+R0
+w1420483908
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineEXMEM.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineEXMEM.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420483911.841446
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineEXMEM.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineEXMEM.v|
+!i113 1
+R4
+npipeline@e@x@m@e@m
+vpipelineIDEX
+!s110 1420455481
+!i10b 1
+!s100 IcDhAccKf=Oh_nN@TNc3d2
+IDjb:=DNVLJNKz[E^UfZGI1
+R1
+R0
+w1420455476
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineIDEX.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineIDEX.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420455481.886946
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineIDEX.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineIDEX.v|
+!i113 1
+R4
+npipeline@i@d@e@x
+vpipelineIFID
+!s110 1420455483
+!i10b 1
+!s100 X`@1<bE4d3flWb9<6en5<0
+Ife@I2d6GSoW_Im2`VFC3S0
+R1
+R0
+w1420448392
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineIFID.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineIFID.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420455483.074305
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineIFID.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineIFID.v|
+!i113 1
+R4
+npipeline@i@f@i@d
+vpipelineMEMWB
+!s110 1420459695
+!i10b 1
+!s100 ;5L^M@62RIA@V8W4zG2=Q2
+IB8_i=o_bfXo]Y>D8E?dak2
+R1
+R0
+w1420459666
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineMEMWB.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineMEMWB.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420459695.756514
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineMEMWB.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/pipelineMEMWB.v|
+!i113 1
+R4
+npipeline@m@e@m@w@b
+vproblem4tb
+R14
+!i10b 1
+!s100 3D^Wf>S0FcYla6VV5lEhh1
+IjDgF>3k@RBKDSj:=S?XSm2
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_ctrlUnit.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_ctrlUnit.v
+L0 8
+R3
+r1
+!s85 0
+31
+!s108 1420199327.065459
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_ctrlUnit.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_ctrlUnit.v|
+!i113 1
+R4
+vproblem5tb
+R14
+!i10b 1
+!s100 UUd14ITTQYH@:>S1FFJ:U0
+I[8Z@OAD_HkDSo7PzIF1<C2
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_aluCtrl.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_aluCtrl.v
+L0 10
+R3
+r1
+!s85 0
+31
+!s108 1420199327.110205
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_aluCtrl.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_aluCtrl.v|
+!i113 1
+R4
+vproblem6tb
+R14
+!i10b 1
+!s100 K7zcP4`=7cVhO<8ki=CX23
+I3onh>@X6D^MdlY_YM:MVi1
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_alu.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_alu.v
+L0 8
+R3
+r1
+!s85 0
+31
+!s108 1420199327.153448
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_alu.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/tb_alu.v|
+!i113 1
+R4
+vproj1
+R14
+!i10b 1
+!s100 a?dmDC4FXPM3HNKz^e8ZX1
+IoM4;YXCkFSZoo2V1BIA0f3
+R1
+R0
+w1420199244
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1r5.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1r5.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1420199327.196745
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1r5.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1r5.v|
+!i113 1
+R4
+vproj1v2
+R14
+!i10b 1
+!s100 eKUlh7BAKbKiVJC94SUC71
+I_ffGD<ZV>l[l37YVWD3PR1
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1v1.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1v1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199327.241378
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1v1.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1v1.v|
+!i113 1
+R4
+vproj2
+!s110 1420484213
+!i10b 1
+!s100 dd19:SVfTGGlDeD:DmCcJ1
+I9`Rj>]@K6Uj7^c=hXhUS70
+R1
+R0
+w1420484184
+Z15 8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/projPart2.v
+Z16 F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/projPart2.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1420484213.712486
+Z17 !s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/projPart2.v|
+Z18 !s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/projPart2.v|
+!i113 1
+R4
+vproj3
+R14
+!i10b 1
+!s100 YDoeNRzM^4e3>j]Hni?4R0
+IRd<M<IZD`Rd8PXZd=75fU2
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1v3.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1v3.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199327.285127
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1v3.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1v3.v|
+!i113 1
+R4
+vproj4
+R14
+!i10b 1
+!s100 IVbX[BUibb<7KdJ[N9n3E0
+IAmGWfn7;YlSA[bQQ]V9V;3
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1r4.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1r4.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199327.329398
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1r4.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/proj1r4.v|
+!i113 1
+R4
+vprojPipe
+!s110 1420554192
+!i10b 1
+!s100 Bl4X2h^kT[F6KaLdYf^X90
+Ig=_W4PZO<:Gk1BhQO[[JJ2
+R1
+R0
+w1420553214
+R15
+R16
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1420554192.767466
+R17
+R18
+!i113 1
+R4
+nproj@pipe
+vreg_32
+R14
+!i10b 1
+!s100 J@]U9XMW:=Z[lWD4Xk4`c2
+I>XIj4E8U:=L]YRhcL7[Rg0
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_32.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199327.374211
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_32.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_32.v|
+!i113 1
+R4
+vreg_32_tb
+R14
+!i10b 1
+!s100 TDOG[f^kFK01]S[`aiO1n1
+IeBa8^6@>];:8^?FaD@Q;I2
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_32_tb.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_32_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1420199327.415920
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_32_tb.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_32_tb.v|
+!i113 1
+R4
+vreg_file
+R14
+!i10b 1
+!s100 V@l0B_N9<<RJHW<JR2P960
+IPlHl]ad5?BcHfPT[_H=z93
+R1
+R0
+w1420196562
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_file.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_file.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199327.462804
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_file.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_file.v|
+!i113 1
+R4
+vreg_file2
+!s110 1420459710
+!i10b 1
+!s100 M8HFcR^em0?2cG4U`_@Z03
+Ib?X_YlVOMa:XR>obD[NVC3
+R1
+R0
+w1420459704
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/regfile2.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/regfile2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420459710.590880
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/regfile2.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/regfile2.v|
+!i113 1
+R4
+vshift2jump
+R14
+!i10b 1
+!s100 40hYRW3Y5z?3YPMG8[<LI0
+I7?BIHkSEz8QKF1e1gmLS<0
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/shift_2_jump.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/shift_2_jump.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199327.504593
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/shift_2_jump.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/shift_2_jump.v|
+!i113 1
+R4
+vshiftleft2
+R14
+!i10b 1
+!s100 [DfPkAeE>^A`XiWhz1R:80
+I0CZKPdEA<mOe8PS;XMJii1
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/shift_left2.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/shift_left2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199327.547100
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/shift_left2.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/shift_left2.v|
+!i113 1
+R4
+vsignextend
+R14
+!i10b 1
+!s100 0iJO490SFl9nnl1n;nU0e2
+Io:9z<__ckJXfGbmVBHkb00
+R1
+R0
+w1420199150
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/sign_extend.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/sign_extend.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1420199327.588798
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/sign_extend.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/sign_extend.v|
+!i113 1
+R4
+vtest_mux2_1
+R14
+!i10b 1
+!s100 b^dzfMi2jhnf@@:5]ZGfS3
+IaHa=K97NVbKL?P[h5GY[b2
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux2_1_tb.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux2_1_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1420199327.631259
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux2_1_tb.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/mux2_1_tb.v|
+!i113 1
+R4
+vtest_reg_file
+R14
+!i10b 1
+!s100 [WWgL62mdSn=`VJFN>=2C0
+IHhgR4kIzka[>:GnK7NCBI0
+R1
+R0
+R2
+8/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_file_tb.v
+F/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_file_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1420199327.674070
+!s107 /home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_file_tb.v|
+!s90 -reportprogress|300|-work|work|/home/ceptde/Desktop/CEProject/modelsim_ase/bin/reg_file_tb.v|
+!i113 1
+R4

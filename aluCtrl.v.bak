@@ -1,0 +1,23 @@
+module ALU_control( //fix this and the ALU
+  input [1:0] alu_op,
+  input [5:0] fxn_code,
+  output reg [3:0] out
+);
+
+
+//When there is an alu_op signal the module will send a 4 bit output signal to the ALU
+//the alu_op signals correspond to different outputs depending on which operation will
+//need to be performed in the ALU.
+always @ (alu_op)
+  case (alu_op)
+    2'b00 : out <= 0; //sw and lw (use adder in alu)
+    2'b01 : out <= 1; //beq
+    2'b10 : 
+      case (fxn_code) 
+        6'b100000 : out <= 0; //add (use adder in alu)
+        6'b001000 : out <= 0; //addi (use adder in alu)
+      endcase
+endcase
+       
+  
+endmodule 

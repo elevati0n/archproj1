@@ -1,0 +1,295 @@
+module proj3(
+output  [31:0]  inst_addr,
+input clk,
+input reset,
+input  [31:0]  instr,
+output  [31:0]  data_addr,
+output reg [31:0]  data_in,
+output reg mem_read,
+output reg mem_write,
+input  [31:0]  data_out
+);
+//FETCH STAGE 1. 
+
+//wire [31:0]  inst_addr,
+//wire  [31:0]  instr,
+//output wire  [31:0]  data_addr,
+//output wire  [31:0]  data_in,
+//output wire          mem_read,
+//output wire mem_write,
+//  [31:0]  data_out
+
+//the output of the jumpMux into the PC
+//wire [7:0] jumpMuxToPC; 
+
+//program counter and InsMem input and output
+//intrastage 
+//output of adderPlus4tojumpMux
+wire [31:0] adder4ToJumpMux;
+
+//jumpMuxtoPC
+wire [31:0] jumpMuxToPC;
+
+//control signal for jumpMuxPC; 
+
+
+//COMPONETS in step 1 Fetch
+
+//pc counter
+pcCounter pc_counter(clk, reset, jumpMuxToPC, inst_addr); 
+
+//instruction memory
+/*
+Memory memory(inst_addr,
+        instr,
+        data_addr,
+        data_in,
+        mem_read,
+        mem_write,
+        data_out); 
+*/
+//wire from ReadRegisterMux to ReadRegister port regFile
+wire [4:0] writeRegMuxToRegFile; 
+
+//outputofthe WriteBackMux to RegFile WriteData
+wire [31:0] writeData;
+
+//register out put wires 
+wire [31:0] readData1, readData2;
+
+//register 
+reg_file regfile(
+        instr[25:21],
+        instr[20:16],
+        writeRegMuxToRegFile, 
+        writeData,
+        regWrite, clk, 
+        readData1, readData2);
+
+
+//Control Unit Output Wires
+wire RegDst, Jump, Branch, RegWrite, MemRead, MemtoReg, MemWrite, ALUSrc;
+wire [1:0] ALUOp; 
+
+/*
+module controlunit ( output reg regdest, output reg jump, output reg branch, output reg memread,
+                     output reg memtoreg, output reg memwrite, output reg alusrc, output reg regwrite,
+                     output reg[1:0] aluop, input [5:0] opcode );
+
+
+controlunit ctrl_unt(Regdest, Jump, Branch, Memread,
+                     Memtoreg, Memwrite, Alusrc, Regwrite,
+                     ALUop, instr[31:26]);
+*/
+
+controlunit ctrl_unit(RegDst, Jump, Branch, MemRead, MemtoReg, MemWrite, RegWrite, ALUsrc, ALUOp, instr[31:26]); 
+
+//sign extend
+
+wire [31:0] signExtendToShiftLeft; 
+
+signextend signExtend(instr[15:0], signExtendToShiftLeft);  // CHECK THIS ****
+
+/*
+module shiftLeft2(
+        input [31:0] shiftIn,
+        output reg [31:0] shiftOut);
+*/
+
+wire [31:0] shiftLeftToALU;
+
+shiftleft2 SL2(
+        signExtendToShiftLeft,
+        shiftLeftToALU);   
+
+wire [3:0] aluctrlout; 
+
+/*
+module alu_control(input[1:0] aluop, 
+input[5:0] funct, 
+output reg[3:0] operation );
+*/
+
+/*module alu_control(
+        input[1:0] aluop, 
+        input[5:0] funct, 
+        output reg[3:0] operation 
+);
+*/
+
+alu_control aluCtrlr(
+  ALUOp[1:0],
+  instr[5:0],
+  aluctrlout[3:0]
+);
+
+
+wire [31:0] ALUResult; 
+wire zeroBranch; 
+
+// ALU Mux Output
+wire [31:0] aluMux; 
+
+// ALU Execturor
+/*
+module alu( output reg[31:0] aluresult, output zero,
+            input[3:0] operation, input[31:0] data_a, input [31:0] data_b );
+*/
+
+
+alu aluExec(
+        data_addr[31:0],
+        zeroBranch,
+        aluctrlout[3:0], 
+        //data_a
+        readData1,
+        //data_b 
+        aluMux
+);
+
+//Add4 ALU    inst_addr
+/*
+module alu( output reg[31:0] aluresult, output zero,
+            input[3:0] operation, input[31:0] data_a, input [31:0] data_b );
+*/
+
+
+wire zeroAluAdd4; 
+wire [31:0] aluAdd4ToJumpMux;
+/*
+alu aluAdd4(
+        aluAdd4ToJumpMux[31:0],
+        zeroAluAdd,
+        4'b0010, 
+        //data_a
+        inst_addr,
+        //data_b 
+        32'd4
+);
+*/
+
+add4PC pc_add4(inst_addr, aluAdd4ToJumpMux); 
+
+//top ALU 
+
+wire zeroAluTop; 
+wire [31:0] jumpMuxPC1;
+
+alu aluTop(
+        jumpMuxPC1[31:0],
+        zeroAluTop,
+        4'b0010, 
+        //data_a
+        aluAdd4ToJumpMux[31:0],
+        //data_b 
+        shiftLeftToALU[31:0]
+);
+
+//mux for writeRegister 
+
+mux5bit2_1 writeRegMux(
+//ctrl`
+regDst,
+//in0 [correct]
+instr[20:16],
+//in1 [correct]
+instr[15:11],
+// output 
+writeRegMuxToRegFile
+);
+
+/*
+module mux32bit2_1(
+input s,
+input [31:0] in0,
+input [31:0] in1,
+output reg [31:0] out
+);
+*/
+
+
+//mux for readData2 output//sign extend //input to ALUexec
+mux32bit2_1 aluReadDataMux(
+ALUSrc,
+readData2,
+shiftLeftToALU,
+aluMux
+);
+
+
+//mux for aluresult//readData data memory //input to writeData
+mux32bit2_1 dataMUX(
+MemtoReg,
+data_addr,
+data_out,
+writeData
+);
+
+//topShiftleft2
+/*
+shiftleft2 sl2(
+        signExtendToShiftLeft,
+        shiftLeftToALU
+);   
+*/
+
+//input ins[25:0] output jumpAddress[31:0] 
+wire [31:0] jumpAddressSL; 
+
+shift2jump sl2top(
+aluAdd4ToJumpMux[29:0], 
+jumpAddressSL
+); 
+
+
+wire [31:0] jumpMux2inp1;
+
+combineSLPC3 SLPC4(
+aluAdd4ToJumpMux,
+jumpAddressSL,
+jumpMux2inp1
+); 
+
+/*
+
+jumpMuxPC1[31:0]
+
+module mux32bit2_1(
+input s,
+// input [31:0] in0,
+PC+4 , jumpAddressSL
+// input [31:0] in1,
+jumpMuxPC1
+//output reg [31:0] out
+
+);
+*/
+
+wire [31:0] jumpMux1toJumpMux2in0;
+wire branchAndGate;
+
+mux32bit2_1 jumpMux1(
+branchAndGate,
+jumpAddressSL,  
+aluAdd4ToJumpMux[31:0], 
+jumpMux1toJumpMux2in0
+);
+
+
+
+mux32bit2_1 jumpMux2(
+Jump,
+jumpMux1toJumpMux2in0,
+aluAdd4ToJumpMux, 
+jumpMuxToPC
+);
+
+//and gate, this should be it!
+andg a1(
+branchAndGate, 
+zeroBranch,
+Branch
+);
+
+
+endmodule

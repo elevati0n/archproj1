@@ -1,0 +1,88 @@
+vsim work.cpu2_tb
+# vsim 
+# Start time: 02:14:49 on Jan 08,2015
+# Loading work.cpu2_tb
+# Loading work.Memory
+# Loading work.projPipe
+# Loading work.add4PC
+# Loading work.pcCounter2
+# Loading work.shiftleft2
+# Loading work.mux32bit2_1
+# Loading work.pipelineIFID
+# Loading work.reg_file2
+# Loading work.controlunit
+# Loading work.signextend
+# Loading work.alu
+# Loading work.pipelineIDEX
+# Loading work.mux4to1
+# Loading work.alu_control
+# Loading work.mux5bit2_1
+# Loading work.pipelineEXMEM
+# Loading work.pipelineMEMWB
+add wave -position insertpoint sim:/cpu2_tb/memory/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/pc_add4/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/pc_counter2/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/sl2top/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/jumpMux2/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/p1/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/regfile2/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/ctrl_unit/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/signExtend/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/SL2/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/p2/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/aluTop/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/top4to1mux/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/bottom4to1mux/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/aluReadDataMux/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/aluCtrler/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/aluExec/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/m1/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/p3/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/p4/*
+add wave -position insertpoint sim:/cpu2_tb/projPipe1/writeRegMux/*
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+vsim work.cpu_tb
+# vsim 
+# Start time: 11:58:07 on Jan 08,2015
+# Loading work.cpu_tb
+# Loading work.Memory
+# Loading work.proj1
+# Loading work.pcCounter
+# Loading work.reg_file
+# Loading work.controlunit
+# Loading work.signextend
+# Loading work.shiftleft2
+# Loading work.alu_control
+# Loading work.alu
+# Loading work.add4PC
+# Loading work.mux5bit2_1
+# Loading work.mux32bit2_1
+# Loading work.combineSLPC3
+# Loading work.andg
+add wave -position insertpoint sim:/cpu_tb/memory/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/pc_counter/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/regfile/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/ctrl_unit/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/signExtend/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/SL2/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/aluCtrler/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/aluExec/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/pc_add4/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/aluTop/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/writeRegMux/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/aluReadDataMux/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/dataMUX/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/sl2top/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/SLPC4/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/jumpMux1/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/jumpMux2/*
+add wave -position insertpoint sim:/cpu_tb/finalProject/a1/*
+add wave -position insertpoint sim:/cpu_tb/#INITIAL#48/*
+run -all
+# Break key hit
+# Simulation stop requested.
